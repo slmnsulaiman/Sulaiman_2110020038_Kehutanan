@@ -1,0 +1,131 @@
+unit MenuHewan;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Vcl.Grids,
+  Vcl.DBGrids;
+
+type
+  TForm3 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    JUMLAH: TLabel;
+    EId_hewan: TEdit;
+    ENamaIlmiah: TEdit;
+    ENama: TEdit;
+    EJumlah: TEdit;
+    EJenis: TEdit;
+    DBGrid1: TDBGrid;
+    JENIS: TLabel;
+    Label5: TLabel;
+    EFilterData: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure EFilterDataChange(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+uses Umodule, MenuUtama;
+
+procedure TForm3.Button1Click(Sender: TObject);
+begin
+try
+           with DataModule1 do
+           begin
+           ZHewan.Append;
+           ZHewanid_hewan.AsString:=EId_hewan.Text;
+           ZHewannm_ilmiah.AsString:=ENamaIlmiah.Text;
+           ZHewannama.AsString:=ENama.Text;
+           ZHewanjumlah.AsString:=EJumlah.Text;
+           ZHewanjenis.AsString:=EJenis.Text;
+
+           ZHewan.Post;
+
+           end;
+      except
+        on salah:Exception do
+        ShowMessage(salah.Message);
+
+      end;
+end;
+
+procedure TForm3.Button2Click(Sender: TObject);
+begin
+try
+           with DataModule1 do
+           begin
+           ZHewan.Edit;
+           ZHewanid_hewan.AsString:=EId_hewan.Text;
+           ZHewannm_ilmiah.AsString:=ENamaIlmiah.Text;
+           ZHewannama.AsString:=ENama.Text;
+           ZHewanjumlah.AsString:=EJumlah.Text;
+           ZHewanjenis.AsString:=EJenis.Text;
+
+           ZHewan.Post;
+
+           end;
+      except
+        on salah:Exception do
+        ShowMessage(salah.Message);
+
+      end;
+end;
+
+procedure TForm3.Button3Click(Sender: TObject);
+begin
+if(
+   (Trim(EId_hewan.Text)='')and
+   (Trim(ENamaIlmiah.Text)='')and
+   (Trim(ENama.Text)='')and
+   (Trim(EJumlah.Text)='')and
+   (Trim(EJenis.Text)='')
+
+) then
+begin
+   beep;
+   ShowMessage('Silahkan pilih data terlebi dahulu');
+   DBGrid1.SetFocus;
+   Exit;
+end else;
+  DataModule1.ZHewan.Delete
+end;
+
+procedure TForm3.EFilterDataChange(Sender: TObject);
+var cari : String;
+begin
+try
+    cari :=QuotedStr('%'+EFilterData.Text+'%');
+    with DataModule1 do
+    begin
+      ZHewan.SQL.Clear;
+      ZHewan.SQL.Text:='SELECT * FROM hewan WHERE id_hewan LIKE ' + cari + 'or nm_ilmiah LIKE' + cari + 'or nama LIKE'+ cari + 'or jumlah LIKE'+ cari + 'or jenis LIKE';
+      ZHewan.Open;
+    end;
+
+  except
+    on salah:Exception do
+    ShowMessage(salah.Message);
+
+  end;
+end;
+
+end.

@@ -1,0 +1,32 @@
+program Visual2;
+
+uses
+  Vcl.Forms,
+  MenuLogin in 'MenuLogin.pas' {Form1},
+  MenuUtama in 'MenuUtama.pas' {Form2},
+  Umodule in 'Umodule.pas' {DataModule1: TDataModule},
+  MenuHewan in 'MenuHewan.pas' {Form3},
+  MenuKematianHewan in 'MenuKematianHewan.pas' {Form4},
+  MenuPenambahanHewan in 'MenuPenambahanHewan.pas' {Form5},
+  MenuWilayah in 'MenuWilayah.pas' {Form6},
+  MenuPelanggaran in 'MenuPelanggaran.pas' {Form7},
+  MenuBarangBukti in 'MenuBarangBukti.pas' {Form8},
+  MenuTersangka in 'MenuTersangka.pas' {Form9};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.Run;
+end.

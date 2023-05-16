@@ -1,0 +1,144 @@
+object Form11: TForm11
+  Left = 0
+  Top = 0
+  Caption = 'Form11'
+  ClientHeight = 444
+  ClientWidth = 719
+  Color = clGradientActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 120
+    Top = 19
+    Width = 30
+    Height = 13
+    Caption = 'NO SK'
+  end
+  object Label2: TLabel
+    Left = 123
+    Top = 46
+    Width = 71
+    Height = 13
+    Caption = 'NAMA POLHUT'
+  end
+  object Label3: TLabel
+    Left = 120
+    Top = 78
+    Width = 74
+    Height = 13
+    Caption = 'JENIS KELAMIN'
+  end
+  object Label4: TLabel
+    Left = 121
+    Top = 105
+    Width = 29
+    Height = 13
+    Caption = 'UMUR'
+  end
+  object Label5: TLabel
+    Left = 123
+    Top = 395
+    Width = 60
+    Height = 13
+    Caption = 'EDIT FILTER'
+  end
+  object DBGrid1: TDBGrid
+    Left = 112
+    Top = 216
+    Width = 433
+    Height = 120
+    DataSource = DataModule1.DsPolhut
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Button1: TButton
+    Left = 456
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'SAVE'
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 552
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'EDIT'
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 636
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'DELETE'
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Left = 200
+    Top = 16
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
+  object Button4: TButton
+    Left = 456
+    Top = 159
+    Width = 75
+    Height = 25
+    Caption = 'CLEAR'
+    TabOrder = 5
+  end
+  object Button5: TButton
+    Left = 552
+    Top = 159
+    Width = 75
+    Height = 25
+    Caption = 'CLOSE'
+    TabOrder = 6
+  end
+  object Edit2: TEdit
+    Left = 200
+    Top = 43
+    Width = 121
+    Height = 21
+    TabOrder = 7
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 200
+    Top = 70
+    Width = 121
+    Height = 21
+    TabOrder = 8
+    Text = 'Edit3'
+  end
+  object Edit4: TEdit
+    Left = 200
+    Top = 97
+    Width = 121
+    Height = 21
+    TabOrder = 9
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 200
+    Top = 392
+    Width = 385
+    Height = 21
+    TabOrder = 10
+    Text = 'Edit5'
+  end
+end

@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'MenuLogin'
+  ClientHeight = 454
+  ClientWidth = 729
+  Color = clActiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 280
+    Top = 88
+    Width = 140
+    Height = 25
+    Caption = 'MENU LOGIN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 236
+    Top = 137
+    Width = 64
+    Height = 16
+    Caption = 'USERNAME'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 236
+    Top = 178
+    Width = 68
+    Height = 16
+    Caption = 'PASSWORD'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Euser: TEdit
+    Left = 336
+    Top = 136
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Epass: TEdit
+    Left = 336
+    Top = 173
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 382
+    Top = 216
+    Width = 75
+    Height = 25
+    Caption = 'LOGIN'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+end

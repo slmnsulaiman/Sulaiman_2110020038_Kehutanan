@@ -1,0 +1,387 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 382
+  Width = 729
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Catalog = ''
+    Properties.Strings = (
+      'controls_cp=CP_UTF16')
+    Connected = True
+    HostName = 'localhost'
+    Port = 3306
+    Database = '2110020038'
+    User = 'root'
+    Password = ''
+    Protocol = 'mysql'
+    LibraryLocation = 
+      'D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutana' +
+      'n\libmysql.dll'
+    Left = 200
+    Top = 8
+  end
+  object ZHewan: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM hewan ORDER BY id_hewan ASC')
+    Params = <>
+    Left = 16
+    Top = 48
+    object ZHewanid_hewan: TIntegerField
+      DisplayLabel = 'ID HEWAN'
+      DisplayWidth = 8
+      FieldName = 'id_hewan'
+      Required = True
+    end
+    object ZHewannm_ilmiah: TWideStringField
+      DisplayLabel = 'NAMA ILMIAH'
+      DisplayWidth = 20
+      FieldName = 'nm_ilmiah'
+      Required = True
+      Size = 50
+    end
+    object ZHewannama: TWideStringField
+      DisplayLabel = 'NAMA'
+      DisplayWidth = 20
+      FieldName = 'nama'
+      Required = True
+      Size = 50
+    end
+    object ZHewanjumlah: TWideStringField
+      DisplayLabel = 'JUMLAH'
+      DisplayWidth = 20
+      FieldName = 'jumlah'
+      Required = True
+      Size = 100
+    end
+    object ZHewanjenis: TWideStringField
+      DisplayLabel = 'JENIS'
+      DisplayWidth = 20
+      FieldName = 'jenis'
+      Required = True
+      Size = 50
+    end
+  end
+  object DSHewan: TDataSource
+    DataSet = ZHewan
+    Left = 8
+    Top = 104
+  end
+  object ZKematianHewan: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM kematian_hewan ORDER BY id_kematian ASC'
+      '')
+    Params = <>
+    Left = 96
+    Top = 48
+    object ZKematianHewanid_kematian: TIntegerField
+      DisplayLabel = 'ID KEMATIAN'
+      DisplayWidth = 13
+      FieldName = 'id_kematian'
+      Required = True
+    end
+    object ZKematianHewanid_hewan: TIntegerField
+      DisplayLabel = 'ID HEWAN'
+      DisplayWidth = 13
+      FieldName = 'id_hewan'
+      Required = True
+    end
+    object ZKematianHewanid_wilayah: TIntegerField
+      DisplayLabel = 'ID WILAYAH'
+      FieldName = 'id_wilayah'
+      Required = True
+    end
+    object ZKematianHewanket: TWideStringField
+      DisplayLabel = 'KETERANGAN'
+      DisplayWidth = 25
+      FieldName = 'ket'
+      Required = True
+      Size = 100
+    end
+    object ZKematianHewanjumlah: TWideStringField
+      DisplayLabel = 'JUMLAH'
+      DisplayWidth = 15
+      FieldName = 'jumlah'
+      Required = True
+      Size = 100
+    end
+  end
+  object DasKematianHewan: TDataSource
+    DataSet = ZKematianHewan
+    Left = 88
+    Top = 112
+  end
+  object ZPenambahanHewan: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM penambahan_hewan ORDER BY id_penambahan ASC'
+      ''
+      '')
+    Params = <>
+    Left = 192
+    Top = 56
+    object ZPenambahanHewanid_penambahan: TIntegerField
+      DisplayLabel = 'ID PENAMBAHAN'
+      DisplayWidth = 15
+      FieldName = 'id_penambahan'
+      Required = True
+    end
+    object ZPenambahanHewanid_wilayah: TIntegerField
+      DisplayLabel = 'ID WILAYAH'
+      DisplayWidth = 15
+      FieldName = 'id_wilayah'
+      Required = True
+    end
+    object ZPenambahanHewanid_hewan: TIntegerField
+      DisplayLabel = 'ID HEWAN'
+      DisplayWidth = 15
+      FieldName = 'id_hewan'
+      Required = True
+    end
+    object ZPenambahanHewanket: TWideStringField
+      DisplayLabel = 'KETERANGAN'
+      DisplayWidth = 20
+      FieldName = 'ket'
+      Required = True
+      Size = 100
+    end
+    object ZPenambahanHewansatuan: TWideStringField
+      DisplayLabel = 'SATUAN'
+      DisplayWidth = 15
+      FieldName = 'satuan'
+      Required = True
+      Size = 50
+    end
+    object ZPenambahanHewanjumlah: TWideStringField
+      DisplayLabel = 'JUMLAH'
+      DisplayWidth = 15
+      FieldName = 'jumlah'
+      Required = True
+      Size = 100
+    end
+  end
+  object DSPenambahanHewan: TDataSource
+    DataSet = ZPenambahanHewan
+    Left = 192
+    Top = 112
+  end
+  object ZWilayah: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM wilayah ORDER BY id_wilayah ASC'
+      ''
+      '')
+    Params = <>
+    Left = 264
+    Top = 48
+    object ZWilayahid_wilayah: TIntegerField
+      DisplayLabel = 'ID WILAYAH'
+      DisplayWidth = 15
+      FieldName = 'id_wilayah'
+      Required = True
+    end
+    object ZWilayahwilayah_kerja: TWideStringField
+      DisplayLabel = 'WILAYAH KERJA'
+      DisplayWidth = 25
+      FieldName = 'wilayah_kerja'
+      Required = True
+      Size = 100
+    end
+    object ZWilayahkonservasi_wilayah: TWideStringField
+      DisplayLabel = 'KONSERVASI WILAYAH'
+      DisplayWidth = 25
+      FieldName = 'konservasi_wilayah'
+      Required = True
+      Size = 100
+    end
+  end
+  object DSWilayah: TDataSource
+    DataSet = ZWilayah
+    Left = 264
+    Top = 104
+  end
+  object ZPelanggaran: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM pelanggaran ORDER BY id_bb ASC'
+      ''
+      ''
+      '')
+    Params = <>
+    Left = 328
+    Top = 48
+    object ZPelanggaranid_bb: TIntegerField
+      DisplayLabel = 'ID BB'
+      DisplayWidth = 8
+      FieldName = 'id_bb'
+      Required = True
+    end
+    object ZPelanggarantanggal: TDateField
+      DisplayLabel = 'TANGGAL'
+      DisplayWidth = 10
+      FieldName = 'tanggal'
+      Required = True
+    end
+    object ZPelanggaranid_tersangka: TIntegerField
+      DisplayLabel = 'ID TERSANGKA'
+      DisplayWidth = 12
+      FieldName = 'id_tersangka'
+      Required = True
+    end
+    object ZPelanggaranuraian_kasus: TWideStringField
+      DisplayLabel = 'URAIAN KASUS'
+      DisplayWidth = 20
+      FieldName = 'uraian_kasus'
+      Required = True
+      Size = 100
+    end
+    object ZPelanggaranno_laporan: TIntegerField
+      DisplayLabel = 'NO LAPORAN'
+      DisplayWidth = 13
+      FieldName = 'no_laporan'
+      Required = True
+    end
+    object ZPelanggaranket_bb: TWideStringField
+      DisplayLabel = 'KET BARANG BUKTI'
+      DisplayWidth = 20
+      FieldName = 'ket_bb'
+      Required = True
+      Size = 100
+    end
+    object ZPelanggaranid_wilayah: TIntegerField
+      DisplayLabel = 'ID WILAYAH'
+      DisplayWidth = 10
+      FieldName = 'id_wilayah'
+      Required = True
+    end
+    object ZPelanggarankategori: TWideStringField
+      DisplayLabel = 'KATEGORI'
+      DisplayWidth = 20
+      FieldName = 'kategori'
+      Required = True
+      Size = 50
+    end
+  end
+  object DsPelanggaran: TDataSource
+    DataSet = ZPelanggaran
+    Left = 328
+    Top = 104
+  end
+  object ZBarangBukti: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM barang_bukti ORDER BY id_bb ASC'
+      ''
+      ''
+      '')
+    Params = <>
+    Left = 424
+    Top = 56
+    object ZBarangBuktiid_bb: TIntegerField
+      DisplayLabel = 'ID BB'
+      FieldName = 'id_bb'
+      Required = True
+    end
+    object ZBarangBuktinm_bb: TWideStringField
+      DisplayLabel = 'NAMA BARANG BUKTI'
+      DisplayWidth = 20
+      FieldName = 'nm_bb'
+      Required = True
+      Size = 100
+    end
+    object ZBarangBuktijumlah: TWideStringField
+      DisplayLabel = 'JUMLAH'
+      DisplayWidth = 20
+      FieldName = 'jumlah'
+      Required = True
+      Size = 100
+    end
+    object ZBarangBuktialat: TWideStringField
+      DisplayLabel = 'ALAT'
+      DisplayWidth = 15
+      FieldName = 'alat'
+      Required = True
+      Size = 100
+    end
+  end
+  object DSBarangBukti: TDataSource
+    DataSet = ZBarangBukti
+    Left = 432
+    Top = 112
+  end
+  object ZTersangka: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM tersangka ORDER BY id_tersangka ASC'
+      ''
+      ''
+      '')
+    Params = <>
+    Left = 504
+    Top = 72
+    object ZTersangkaid_tersangka: TIntegerField
+      DisplayLabel = 'ID TERSANGKA'
+      FieldName = 'id_tersangka'
+      Required = True
+    end
+    object ZTersangkano_ktp: TWideStringField
+      DisplayLabel = 'NO KTP'
+      DisplayWidth = 18
+      FieldName = 'no_ktp'
+      Required = True
+      Size = 50
+    end
+    object ZTersangkanm_tersangka: TWideStringField
+      DisplayLabel = 'NAMA TERSANGKA'
+      DisplayWidth = 20
+      FieldName = 'nm_tersangka'
+      Required = True
+      Size = 50
+    end
+    object ZTersangkaumur: TWideStringField
+      DisplayLabel = 'UMUR'
+      DisplayWidth = 20
+      FieldName = 'umur'
+      Required = True
+      Size = 50
+    end
+    object ZTersangkaalamat: TWideStringField
+      DisplayLabel = 'ALAMAT'
+      DisplayWidth = 30
+      FieldName = 'alamat'
+      Required = True
+      Size = 100
+    end
+  end
+  object DSTersangka: TDataSource
+    DataSet = ZTersangka
+    Left = 512
+    Top = 128
+  end
+  object ZPasal: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM pasal ORDER BY no_pasal ASC'
+      ''
+      ''
+      ''
+      '')
+    Params = <>
+    Left = 48
+    Top = 200
+  end
+  object DsPasal: TDataSource
+    DataSet = ZPasal
+    Left = 48
+    Top = 256
+  end
+end

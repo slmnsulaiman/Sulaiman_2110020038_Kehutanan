@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/14 08:37:37.000.324,=C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/14 08:41:06.000.383,=C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/14 08:41:28.000.895,=C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/11 13:29:22.000.146,=C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/11 13:30:15.000.809,C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuLogin.dfm</Transaction>
+    <Transaction>2023/05/11 13:30:15.000.809,C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuLogin.pas</Transaction>
+    <Transaction>2023/05/11 13:30:39.000.217,C:\Users\Sulaiman\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Visual2.dproj</Transaction>
+    <Transaction>2023/05/11 13:39:50.000.330,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit1.pas</Transaction>
+    <Transaction>2023/05/11 13:40:08.000.245,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit2.pas</Transaction>
+    <Transaction>2023/05/11 13:40:45.000.129,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuUtama.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit2.pas</Transaction>
+    <Transaction>2023/05/11 13:40:45.000.129,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuUtama.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit2.dfm</Transaction>
+    <Transaction>2023/05/11 13:48:18.000.517,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit1.pas</Transaction>
+    <Transaction>2023/05/11 13:49:34.000.301,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Umodule.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit1.pas</Transaction>
+    <Transaction>2023/05/11 13:49:34.000.301,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Umodule.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit1.dfm</Transaction>
+    <Transaction>2023/05/11 13:55:43.000.994,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit3.pas</Transaction>
+    <Transaction>2023/05/11 13:57:14.000.011,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuHewan.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit3.dfm</Transaction>
+    <Transaction>2023/05/11 13:57:14.000.011,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuHewan.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit3.pas</Transaction>
+    <Transaction>2023/05/11 23:34:06.000.625,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit4.pas</Transaction>
+    <Transaction>2023/05/11 23:34:37.000.764,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuKematianHewan.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit4.dfm</Transaction>
+    <Transaction>2023/05/11 23:34:37.000.764,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuKematianHewan.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit4.pas</Transaction>
+    <Transaction>2023/05/12 00:03:28.000.843,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit5.pas</Transaction>
+    <Transaction>2023/05/12 00:04:16.000.985,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPenambahanHewan.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit5.pas</Transaction>
+    <Transaction>2023/05/12 00:04:16.000.985,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPenambahanHewan.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit5.dfm</Transaction>
+    <Transaction>2023/05/12 00:30:16.000.492,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit6.pas</Transaction>
+    <Transaction>2023/05/12 00:30:28.000.394,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit6.dfm</Transaction>
+    <Transaction>2023/05/12 00:30:28.000.394,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit6.pas</Transaction>
+    <Transaction>2023/05/12 08:13:18.000.602,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit7.pas</Transaction>
+    <Transaction>2023/05/12 08:14:32.000.276,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit7.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPelanggaran.dfm</Transaction>
+    <Transaction>2023/05/12 08:14:32.000.276,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit7.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPelanggaran.pas</Transaction>
+    <Transaction>2023/05/12 08:38:09.000.840,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.dfm</Transaction>
+    <Transaction>2023/05/12 08:38:09.000.840,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.pas</Transaction>
+    <Transaction>2023/05/12 08:40:06.000.996,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.pas</Transaction>
+    <Transaction>2023/05/12 08:40:06.000.996,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuWilayah.dfm</Transaction>
+    <Transaction>2023/05/12 08:54:20.000.066,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit8.pas</Transaction>
+    <Transaction>2023/05/12 08:54:36.000.065,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit8.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.pas</Transaction>
+    <Transaction>2023/05/12 08:54:36.000.065,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit8.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuBarangBukti.dfm</Transaction>
+    <Transaction>2023/05/12 09:07:05.000.984,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit9.pas</Transaction>
+    <Transaction>2023/05/12 09:07:25.000.952,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit9.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuTersangka.pas</Transaction>
+    <Transaction>2023/05/12 09:07:25.000.952,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit9.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuTersangka.dfm</Transaction>
+    <Transaction>2023/05/12 13:29:57.000.534,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit10.pas</Transaction>
+    <Transaction>2023/05/12 13:30:19.000.132,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPasal.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit10.dfm</Transaction>
+    <Transaction>2023/05/12 13:30:19.000.132,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPasal.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit10.pas</Transaction>
+    <Transaction>2023/05/12 13:54:24.000.393,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit11.pas</Transaction>
+    <Transaction>2023/05/12 13:54:47.000.644,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPolhut.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit11.pas</Transaction>
+    <Transaction>2023/05/12 13:54:47.000.644,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPolhut.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit11.dfm</Transaction>
+    <Transaction>2023/05/12 14:09:31.000.974,=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit12.pas</Transaction>
+    <Transaction>2023/05/12 14:10:03.000.300,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPenanganan.dfm=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit12.dfm</Transaction>
+    <Transaction>2023/05/12 14:10:03.000.300,D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\MenuPenanganan.pas=D:\kuliah\SEMESTAR 4\Visual 2\tugas\Sulaiman_2110020038_Kehutanan\Unit12.pas</Transaction>
+  </Transactions>
+</BorlandProject>
